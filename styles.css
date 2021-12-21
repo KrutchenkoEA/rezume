@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(212, 206, 206, 0.41);
+    font-size: 16px;
+    font-family: "Roboto Light", sans-serif;
+}
+
+img {
+    width: 150px;
+    border-radius: 30px;
+}
+
+.main-info {
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px rgb(91, 88, 88);
+}
+
+.info {
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #caced8;
+    padding: 20px;
+}
+
+div {
+    padding: 10px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #171c7a;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #891414;
+}
+
+a:active {
+    color: #16D9E3;
+}
+
+ul {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr:nth-child(even) {
+    color: #434b93;
+}
+
+@media (max-width: 700px) {
+    .main-info {
+        display: block;
+        text-align: center;
+    }
+}
